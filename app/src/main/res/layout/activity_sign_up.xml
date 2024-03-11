@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.SignInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        >
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:textFontWeight="500"
+            android:textSize="20sp"
+            android:text="@string/create_your_account"
+            android:textColor="@color/black"
+            android:layout_marginTop="84dp" />
+
+        <TextView
+            android:fontFamily="@font/roboto"
+            android:id="@+id/textView2"
+            android:layout_width="284dp"
+            android:layout_height="24dp"
+            android:text="@string/do_you_already_have_account_sign_in"
+            android:textSize="14sp"
+            android:textFontWeight="400"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:fontFamily="@font/roboto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:textFontWeight="400"
+            android:textSize="14sp"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextUserName"
+            android:fontFamily="@font/roboto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_signin_rad8"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:hint="@string/user_gmail_com"
+            android:paddingLeft="20dp"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:fontFamily="@font/roboto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textFontWeight="400"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:fontFamily="@font/roboto"
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_signin_rad8"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:hint="@string/user_gmail_com"
+            android:paddingLeft="20dp"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textSize="14sp"
+            android:textFontWeight="400"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:hint="*******"
+            android:paddingLeft="20dp"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_signin_rad8"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_account"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_signin_rad8"
+            android:backgroundTint="@color/secondary"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
