@@ -12,4 +12,10 @@
     <string name="username">Username</string>
     <string name="do_you_already_have_account_sign_in">Do you already have account ? Sign In</string>
     <string name="create_account">Create Account</string>
+    <string name="cari_barang_kamu_disini">Cari Barang Kamu Disini</string>
+    <string name="keranjang">keranjang</string>
+    <string name="hoodie_colletion">Hoodie Colletion</string>
+    <string name="hoodie_collection">Hoodie Collection</string>
+    <string name="latest_shoe_recommendations_which_is_being_hit_right_now">Latest shoe recommendations which is being hit right now</string>
+    <string name="get_now">Get Now</string>
 </resources>
